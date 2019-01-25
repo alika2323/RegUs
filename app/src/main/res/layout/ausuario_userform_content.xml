@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".asignarUsuario.UserForm"
+
+    tools:showIn="@layout/ausuario_userform">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E5E8E8"
+        android:orientation="vertical">
+
+
+        <!-- DATOS GENERALES -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:background="@drawable/esquinas_redondeadas"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:text="DATOS GENERALES"
+                android:textColor="@color/txt_secc01_titleDG"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_horizontalForm"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.9"
+                        android:theme="@style/EditTextGreyText">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/nombre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/hint_nombreUserForm"
+                            android:inputType="text" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <include
+                        android:id="@+id/btn_editnombre"
+                        layout="@layout/wid_btneditar" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.9"
+                        android:theme="@style/EditTextGreyText">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/apaterno"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/hint_apaternoUserForm"
+                            android:inputType="text" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <include
+                        android:id="@+id/btn_editapaterno"
+                        layout="@layout/wid_btneditar" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4"
+                    >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.9"
+                        android:theme="@style/EditTextGreyText">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/amaterno"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/hint_amaternoUserForm"
+                            android:inputType="textCapCharacters" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <include
+                        android:id="@+id/btn_editamaterno"
+                        layout="@layout/wid_btneditar" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4"
+                    >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="3.9"
+                        android:theme="@style/EditTextGreyText">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/curp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/hint_curpUserForm"
+                            android:inputType="textCapCharacters" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <include
+                        android:id="@+id/btn_editcurp"
+                        layout="@layout/wid_btneditar" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="4"
+                    android:orientation="horizontal">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="3.9"
+                        android:theme="@style/EditTextGreyText">
+
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/hint_emailUserForm"
+                            android:inputType="text" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <include
+                        android:id="@+id/btn_editcurp"
+                        layout="@layout/wid_btneditar" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- DATOS ADICIONALES -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/esquinas_redondeadas"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:text="DATOS ADICIONALES"
+                android:textColor="@color/txt_secc01_titleDG"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3.9"
+                    android:theme="@style/EditTextGreyText">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/tel_contacto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_telPersonal_userForm"
+                        android:inputType="number"
+                        android:maxLength="10" />
+                </android.support.design.widget.TextInputLayout>
+
+                <include
+                    android:id="@+id/btn_edittelPersonal"
+                    layout="@layout/wid_btneditar" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="3.9"
+                    android:theme="@style/EditTextGreyText">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/tel_trabajo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_telTrabajo_userForm"
+                        android:inputType="number"
+                        android:maxLength="10" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <include
+                    android:id="@+id/btn_edittelTrabajo"
+                    layout="@layout/wid_btneditar" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!-- ESTADO DE ENTREGA DISPOSITIVO  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:background="@drawable/esquinas_redondeadas"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:text="STATUS ENTREGA DM"
+                android:textColor="@color/txt_secc01_titleDG"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_imei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:text="IMEI DEL DM"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txt_numTelefonico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="IMEI DEL DM"
+                android:textSize="20dp"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/pregCondicionEntrega"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="¿Recibiste en buenas condiciones y completo tu equipo?" />
+
+            <Spinner
+                android:id="@+id/condicionEntrega"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:theme="@style/EditTextGreyText">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/observaciones"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="top|left"
+                    android:hint="@string/hint_observaciones_userForm"
+                    android:inputType="textMultiLine"
+                    android:lines="5"
+                    android:maxLines="5"
+                    android:overScrollMode="always"
+                    android:scrollHorizontally="false"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <!-- / ESTADO DE ENTREGA DISPOSITIVO  -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnRegistrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_btn_registrarUser"
+                android:theme="@style/RaisedButtonContinue_Blue" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

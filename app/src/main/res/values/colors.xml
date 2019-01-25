@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default -->
+    <color name="colorPrimary">#00bcd4</color>
+    <color name="colorPrimaryDark">#0097A7</color>
+    <color name="colorAccent">#ffffff</color>
+
+
+    <!-- Basic -->
+    <color name="white">#ffffff</color>
+
+    <!-- Text -->
+    <color name="txt_module_titleCardview">#ffe3e3e3</color>
+    <color name="txt_general_grey">#ed5e5e5d</color>
+    <color name="txt_secc01_titleDG">#039296</color>
+    <color name="txt_secc02_titleDG">#A35353</color>
+
+
+    <!-- Buttons -->
+    <color name="bg_formUser_FAB">#EF6C00</color>
+    <color name="bg_mod2_titleCardview">#8c000000</color>
+    <color name="bg_mod2_btnContinue_claro">#f58181</color>
+    <color name="bg_mod2_btnContinue_oscuro">#FF605F</color>
+
+
+    <!-- EditText -->
+    <color name="EditTextWhite">#ffffff</color>
+
+
+    <!--MODULE-->
+    <color name="ModBlue">#0facb0</color>
+    <color name="ModRed">#B36664</color>
+
+
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="edit_textsize_login">20sp</dimen>
+    <dimen name="padding_horizontal_login">32dp</dimen>
+    <dimen name="margin_horizontal_login">32dp</dimen>
+    <dimen name="text_dontHaveAcount">16dp</dimen>
+    <dimen name="edittext_margin_createaccount">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_marginForm">30dp</dimen>
+    <dimen name="margin_horizontalForm">10dp</dimen>
+</resources>

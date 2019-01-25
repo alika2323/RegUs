@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Asignaciones</string>
+    <string name="hint_username">Nombre de usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="text_btn_login">LOGIN</string>
+    <string name="dontHaveAcount">¿No tiene cuenta?,</string>
+    <string name="createHere"> crea una aquí.</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_password_createaccount">Password</string>
+    <string name="hint_username_createaccount">Nombre de usuario</string>
+    <string name="hint_user_createaccount">Usuario</string>
+    <string name="hint_confirmpassword">Confirmar contraseña</string>
+    <string name="text_btn_createaccount">UNETE</string>
+    <string name="title_activity_referencia">Referencia</string>
+    <string name="hint_claveProyecto">Clave Proyecto</string>
+    <string name="text_btn_verificar">VERIFICAR</string>
+    <string name="text_btn_continuar">Continuar</string>
+    <string name="hint_claveUser">Clave de Usuario</string>
+    <string name="hint_claveCurp">CURP</string>
+    <string name="text_btn_editarUsuario">EDITAR INFORMACIÓN</string>
+    <string name="hint_nombreUserForm">* Nombre</string>
+    <string name="text_btn_registrarUser">REGISTRAR USUARIO</string>
+    <string name="hint_amaternoUserForm">Apellido Materno</string>
+    <string name="hint_apaternoUserForm">* Apellido Paterno</string>
+    <string name="hint_curpUserForm">* CURP</string>
+    <string name="hint_telPersonal_userForm">* Telefono Personal</string>
+    <string name="hint_telTrabajo_userForm">* Teléfono Trabajo</string>
+    <string name="hint_observaciones_userForm">Observaciones</string>
+    <string name="hint_emailUserForm">* Correo electrónico</string>
+    <string name="hint_claveCede">Clave Cede</string>
+    <string name="text_btn_verificaAsignacion">Verificar Status</string>
+    <string name="hint_claveSolicitud">Clave o número de solicitud</string>
+</resources>

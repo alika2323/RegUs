@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+
+
+    <style name="RaisedButtonContinue_Blue" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">#165A92</item>
+        <item name="colorControlHighlight">#7093b1</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <style name="RaisedButtonRed" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/bg_mod2_btnContinue_oscuro</item>
+        <item name="colorControlHighlight">@color/bg_mod2_btnContinue_claro</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+
+    <style name="EditTextWhite" parent="Theme.AppCompat.Light">
+        <item name="android:textColorHint">@color/EditTextWhite</item>
+        <item name="android:textColorPrimary">@color/EditTextWhite</item>
+        <item name="colorAccent">@color/EditTextWhite</item>
+        <item name="colorControlNormal">@color/EditTextWhite</item>
+        <item name="colorControlActivated">@color/EditTextWhite</item>
+        <item name="android:textSize">@dimen/edit_textsize_login</item>
+    </style>
+
+
+
+
+
+
+
+
+
+    <style name="EditTextGreyText" parent="Theme.AppCompat.Light">
+        <item name="android:textColorHint">@color/txt_general_grey</item>
+        <item name="android:textColorPrimary">@color/txt_general_grey</item>
+        <item name="colorAccent">@color/txt_general_grey</item>
+        <item name="colorControlNormal">@color/txt_general_grey</item>
+        <item name="colorControlActivated">@color/txt_general_grey</item>
+        <item name="android:textSize">@dimen/edit_textsize_inputUserF</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+
+
+
+
+    <style name="EditTextBlackSearch" parent="Theme.AppCompat.Light">
+        <item name="android:textColorHint">@color/txt_general_grey</item>
+        <item name="android:textColorPrimary">#34495E</item>
+        <item name="colorAccent">@color/txt_general_grey</item>
+        <item name="colorControlNormal">@color/txt_general_grey</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="android:textSize">@dimen/edit_textsize_login</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="EditTextProyecto">Clave del proyecto</style>
+
+    <dimen name="edit_textsize_inputUserForm">16dp</dimen>
+    <dimen name="edit_textsize_inputUserF">16dp</dimen>
+</resources>
